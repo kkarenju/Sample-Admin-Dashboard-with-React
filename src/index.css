@@ -26,6 +26,7 @@ code {
 .navbar .navbar-nav li .pro{
   width:100%;
   min-width: 300px;
+  text-align:left;
 }
 
 .profile-picture{
@@ -45,4 +46,20 @@ code {
 }
 /* end of css for top navigation bar*/
 
+/*left side bar icons styling*/
+.sideBarMenu{
+  height:100vh;
+  display:flex;
+  align-items:center;
+}
 
+.side-bar-icon{
+  font-size: large;
+  margin-top:5px;
+  margin-bottom: 5px;;
+}
+
+.side-bar-icon:hover{
+  color:blueviolet;
+}
+/*end of left side bar icons styling*/
