@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    font-size:11px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    font-size:11px;
 }
+
+/* Css for top navigation bar*/
+.navbar .btn{
+  font-size:12px;
+}
+
+.navbar .navbar-toggler-icon {
+  font-size: 20px;
+}
+
+.navbar .navbar-nav li .pro{
+  width:100%;
+  min-width: 300px;
+}
+
+.profile-picture{
+  margin-left:20px;
+  width:100%;
+  max-width:50px;
+  height:50px;
+  object-fit: cover;
+}
+
+.link:hover{
+  border-color: blueviolet !important;
+}
+
+.dropdown-item{
+  font-size: 11px;;
+}
+/* end of css for top navigation bar*/
+
+
