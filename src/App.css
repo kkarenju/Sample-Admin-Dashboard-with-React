@@ -4,3 +4,18 @@
   parent div on small screens
 */
 .staff-table{overflow-x: scroll;}
+
+
+/*style period section on contents of the dashboard */
+.period li{font-size: 11px;}
+.period li .active{
+  border:1px solid blueviolet;
+  border-radius: 5px;
+  color:blueviolet;
+}
+.period li:hover{
+  border:1px solid blueviolet;
+  border-radius: 5px;
+  color:blueviolet;
+}
+/*end of style period section on contents of the dashboard */

@@ -1,5 +1,6 @@
 import React from 'react';
 import Visits from './visits';
+import Period from './period';
 import Metrics from './metrics';
 import Staff from './users';
 
@@ -13,7 +14,7 @@ const content = () => {
       </div>
 
       {/* to hold the left navigation menu */}
-      <div className='col-md-3 rounded-3 mt-2 bg-white menu'>
+      <div className='col-md-3 rounded-3 mt-2 bg-white'>
         <div class="p-3">
           <Visits />
         </div>
@@ -22,6 +23,7 @@ const content = () => {
       {/* to hold main contents of the dashboard page */}
       <div className="col-md-9 mt-2">
         <div class="px-3">
+          <Period />
           <Metrics />
           <Staff />
         </div>
