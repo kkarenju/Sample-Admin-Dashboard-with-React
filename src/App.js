@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import SideBar from './components/sideBar';
+import Content from './components/content';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </div>
         <div className='col-11 pl-1 bg-light'>
           <Navbar />
+          <Content />
         </div>
       </div>
 
