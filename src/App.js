@@ -8,10 +8,12 @@ function App() {
     <div className="App container-fluid">
 
       <div className='row'>
-        <div className='col-1 sideBarMenu'>
-          <SideBar/>
+
+        {/* pagge layout into 2 major/ parent columns */}
+        <div className='col-1 sideBarMenu'> {/*left column holding icon menus*/}
+          <SideBar/> 
         </div>
-        <div className='col-11 pl-1 bg-light'>
+        <div className='col-11 pl-1 bg-light'> {/*right column holding vertical navigation menu and general dashboard analytics*/}
           <Navbar />
           <Content />
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Visits from './visits';
+import Staff from './users';
 
 const content = () => {
   return (
@@ -19,7 +20,8 @@ const content = () => {
 
       {/* to hold main contents of the dashboard page */}
       <div className="col-md-9 mt-2">
-        <div class="px-3 bg-white">content
+        <div class="px-3">
+          <Staff />
         </div>
       </div>
     </div>
