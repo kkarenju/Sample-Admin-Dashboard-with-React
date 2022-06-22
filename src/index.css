@@ -6,6 +6,7 @@ body {
     font-size:11px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height:100vh;
 }
 
 code {
@@ -63,3 +64,11 @@ code {
   color:blueviolet;
 }
 /*end of left side bar icons styling*/
+
+/*css for analytics layout*/
+.analytics{height:90%;}
+.menu{
+ height:95%;
+}
+
+/*end of analytics layout*/
